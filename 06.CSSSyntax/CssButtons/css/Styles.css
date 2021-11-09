@@ -12,7 +12,7 @@ body {
     display: inline-block;
 }
 
-.btn2{
+.btn2 {
     background-color: #C64429;
     color: white;
     border: white;
@@ -33,6 +33,24 @@ body {
     padding: 15px 50px;
     display: inline-block;
     background-position-x: 2px;
-    background-position-y: 7px;
+    background-position-y: 5px;
     background-repeat: no-repeat;
+}
+
+.btn1:hover {
+    transition: 1s;
+    background-color: black;
+    color: white;
+}
+
+.btn2:hover {
+    transition: 1s;
+    background-color: #c5543e;
+}
+
+.btn3:hover {
+    transition: 1s;
+    text-decoration: underline;
+    background-image: url(../img/logo-tiktok.png);
+    background-size: 40px;
 }
