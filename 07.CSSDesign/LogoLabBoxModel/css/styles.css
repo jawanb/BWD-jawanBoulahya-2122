@@ -1,0 +1,72 @@
+#topbar ul {
+    margin: 20px;
+    margin-right: -15px;
+}
+
+#topbar li {
+    padding: 20px;
+}
+
+nav li.active a, nav li:hover a{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -5px;
+}
+
+#slogan {
+    padding-top: 10px;
+}
+
+#einstein {
+    margin-bottom: -125px;
+}
+
+header {
+    padding-bottom: 125px;
+    border-bottom: 55px solid #ebebeb;
+}
+
+main {
+    padding: 50px;
+}
+
+.wrapper p, .wrapper h3 {
+    padding: 6px;
+}
+
+.button a{
+    margin-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+h4 {
+    padding: 5px;
+}
+
+aside li, aside h4 {
+    margin-bottom: 6px;
+}
+
+#ctaTwitter, #ctaFacebook, #ctaNetlog {
+    padding: 15px;
+    padding-left: 35%;
+}
+
+
+footer {
+    padding: 50px;
+}
+
+footer li {
+    border-bottom: 1px solid lightgrey;
+}
+
+footer ul{
+    padding: 5px;
+    padding-top: 15px;
+}
