@@ -1,0 +1,148 @@
+/**
+ *
+ * Common styles
+ *
+ * Jawan Boulahya
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+/* ... */
+body {
+   border-top: solid;
+   background-color: white;
+   border-color: white;
+   border-radius: 7px;
+   border-width: 3px;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 0px;
+}
+
+h3 {
+   color: #B52025;
+   font-weight: normal;
+   text-transform: uppercase;
+}
+
+h3::after {
+   content: " →";
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+   transition: 0.3s;
+}
+
+html {
+   background-color: #dfdfdf;
+}
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+/* ... */
+nav li {
+   display: inline-block;
+   list-style: none;
+}
+
+nav a {
+   color: black;
+   padding: 10px;
+   text-decoration: none;
+}
+
+nav a:hover {
+   background-color: #B52025;
+   color: white;
+   transition: 0.3s;
+}
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+/* ... */
+#banner {
+   background-image: url(../img/slider_photo2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   border-color: #B52025;
+   border-width: 7px;
+   box-shadow: 0px 10px 10px grey;
+}
+
+#banner p {
+   color: white;
+   background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+/* ... */
+.minibanner {
+   border: 2px solid lightgrey;
+}
+
+.more a {
+   color: #B52025;
+   background-color: white;
+   border: 2px solid #B52025;
+   border-radius: 3px;
+   font-weight: bold;
+   padding: 7px;
+   margin-left: 85%;
+}
+
+.more a::after {
+   content: " »";
+}
+
+.newsletter label {
+   visibility: hidden;
+}
+
+#email {
+   background-color: #FDEAEB;
+}
+
+.newsletter input {
+   background-color: #B52025;
+   color: white;
+}
+
+.newsletter p {
+   text-align: initial;
+}
+
+section p {
+   text-align: justify;
+}
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+/* ... */
+footer {
+   background: linear-gradient(#dfdfdf, white);
+   border-top: dotted;
+   border-color: #dfdfdf;
+   border-width: 2px;
+   text-align: center;
+}
