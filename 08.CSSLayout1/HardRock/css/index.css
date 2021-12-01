@@ -1,0 +1,81 @@
+/* ===========================================
+   Banner
+   =========================================== */
+
+   #banner {
+      background-image: url(../img/banner.jpg);
+      background-size: cover;
+   }
+   
+   .banner_box {
+      padding: 120px 0 60px 0;
+   }
+   
+   .banner_box .btn-cta {
+      font-size: 18px;
+      padding: 14px 60px;   
+   }
+   
+   .banner_box p {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 30px;
+   }
+   
+   /* ===========================================
+      Main
+      =========================================== */
+   
+   main {
+      display: flex;
+   }
+   
+   /* left */
+   
+   .left {
+      padding: 30px 15px 0 15px;
+      width: 70%;
+
+   }
+   
+   #gallery {
+      margin: 35px 0;
+      flex-wrap: wrap;
+   }
+
+   #gallery a {
+      max-width: 100%;
+   }
+
+   #gallery img {
+      width: 23%;
+   }
+   
+   /* right */
+   
+   .right {
+      padding: 30px 15px 0 15px;
+      width: 35%;
+   }
+   
+   .right h3 a {
+      color: #333;
+      border-bottom: 1px solid #cccccc;
+   }
+   
+   .right h3 a:hover {
+      color: #be0a35;
+      text-decoration: none;
+   }
+
+   .thumb {
+      width: 35%;
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 5px;
+   }
+
+   .readmore {
+      display: flex;
+   }

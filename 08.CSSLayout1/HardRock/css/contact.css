@@ -1,0 +1,77 @@
+/* ===========================================
+   Main
+   =========================================== */
+
+.wrapper {
+   flex-wrap: wrap;
+}
+
+/* top */
+
+#main_top {
+   padding: 30px 15px 0 15px;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 14px;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 20px;
+}
+
+/* bottom */
+
+#main_bottom {
+   padding: 30px 15px 0 15px;
+}
+
+iframe {
+   border: none;
+   width: 450px;
+   margin-left: 30px;
+}
+
+#bottom_content {
+   display: flex;
+}
+
+/* form */
+
+form label {
+   font-size: 16px;
+   font-style: italic;
+   margin-right: 60px;
+   vertical-align: top;
+}
+
+form input {
+   padding: 7px;
+   width: 330px;
+}
+
+form textarea {
+   width: 330px;
+   height: 170px;
+   margin-left: -10px;
+}
+
+#inpEmail {
+   margin-left: 2px;
+}
+
+#inpPhone {
+   margin-left: -4px;
+}
+
+#inpDtae {
+   margin-left: 10px;
+}
+
+#inpStart {
+   margin-left: 9px;
+}
