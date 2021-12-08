@@ -1,0 +1,162 @@
+body {
+    font-family: 'lucida-grande-regular', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Manjari', sans-serif;
+    color: rgb(52, 167, 212);
+}
+
+#banner {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+.banner_box {
+    color: white;
+    margin-left: 1325px;
+    margin-top: 150px;
+}
+
+.banner_box span{
+    font-family: 'Manjari', sans-serif;
+    font-size: 38px;
+    color: white;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 360px;
+}
+
+nav a {
+    text-decoration: none;
+    color: limegreen;
+}
+
+nav li {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.active {
+    color: white;
+    background-color: limegreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button::after {
+    content: " ⯈";
+    color: rgb(0, 172, 224);
+    vertical-align: top;
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(0, 172, 224);
+}
+
+.commitments {
+    display: flex;
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+
+.commitments section {
+    margin-right: 50px;
+}
+
+.commitments section img {
+    border-bottom: solid 5px limegreen;
+    width: 100%;
+}
+
+iframe {
+    height: 190px;
+    margin-right: 60px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.report{
+    border: solid 1px rgb(0, 172, 224);
+    background-color: rgb(228, 250, 255);
+    padding-right: 155px;
+    padding-bottom: 45px;
+    margin-top: 15px;
+}
+
+.report p{
+    color: rgb(52, 167, 212);
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.report li{
+    list-style: none;
+    margin-left: -20px;
+}
+
+.report a{
+    text-decoration: underline;
+    color: rgb(0, 172, 224);
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(187, 187, 187);
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    margin-left: -40px;
+}
+
+footer li a{
+    text-decoration: underline;
+    color: rgb(219, 219, 219);
+}
+
+.fli::after {
+    padding: 10px;
+    content: "|";
+}
+
+.footer1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+form {
+    margin-left: 100px;
+    display: flex;
+}
+
+form input {
+    height: 20px;
+}
+
+#email {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+small {
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
