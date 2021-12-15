@@ -1,0 +1,81 @@
+/* ===========================================
+   Banner
+   =========================================== */
+
+   #banner {
+      background-image: url(../img/banner.jpg);
+      background-size: cover;
+   }
+   
+   .banner_box {
+      padding: 7.5rem 0 3.75rem 0;
+   }
+   
+   .banner_box .btn-cta {
+      font-size: 1.125rem;
+      padding: 0.875rem 3.75rem;   
+   }
+   
+   .banner_box p {
+      color: white;
+      font-size: 1.875rem;
+      font-weight: bold;
+      margin-bottom: 1.875rem;
+   }
+   
+   /* ===========================================
+      Main
+      =========================================== */
+   
+   main {
+      display: flex;
+   }
+   
+   /* left */
+   
+   .left {
+      padding: 1.875rem 0.938rem 0 0.938rem;
+      width: 70%;
+
+   }
+   
+   #gallery {
+      margin: 2.188rem 0;
+      flex-wrap: wrap;
+   }
+
+   #gallery a {
+      max-width: 100%;
+   }
+
+   #gallery img {
+      width: 23%;
+   }
+   
+   /* right */
+   
+   .right {
+      padding: 1.875rem 0.938rem 0 0.938rem;
+      width: 35%;
+   }
+   
+   .right h3 a {
+      color: #333;
+      border-bottom: 0.063rem solid #cccccc;
+   }
+   
+   .right h3 a:hover {
+      color: #be0a35;
+      text-decoration: none;
+   }
+
+   .thumb {
+      width: 35%;
+      float: left;
+      margin-right: 0.625rem;
+      margin-bottom: 0.313rem;
+   }
+
+   .readmore {
+      display: flex;
+   }

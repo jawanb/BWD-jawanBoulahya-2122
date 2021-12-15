@@ -1,0 +1,35 @@
+a.lnk-cta {
+    font-size: 1.25rem;
+ }
+ 
+ a.lnk-cta::after {
+    content: " »";
+ }
+ 
+ .btn-cta {
+    background-color: #17a348;
+    border-bottom: 0.188rem solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.188rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;   
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.5s;
+    white-space: nowrap;
+ }
+ 
+ a.btn-cta {
+    text-decoration: none;
+ }
+ 
+ a.btn-cta:hover {
+    color: #fff;
+ }
+ 
+ .btn-cta:hover {
+    background-color: #14833b;
+ } 

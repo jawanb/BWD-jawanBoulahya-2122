@@ -1,0 +1,30 @@
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: #333;
+	font-size: 1.5rem;
+	font-weight: normal;
+	margin-bottom: 1.563rem;
+}
+
+h3 {
+	font-size: 1.125rem;
+	font-weight: normal;
+	margin-bottom: 1.25rem;
+}
+
+p {
+	margin-bottom: 1.25rem;
+}
+
+a {
+	color: #17a348;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #14833b;
+	text-decoration: underline;
+}

@@ -1,0 +1,77 @@
+/* ===========================================
+   Main
+   =========================================== */
+
+.wrapper {
+   flex-wrap: wrap;
+}
+
+/* top */
+
+#main_top {
+   padding: 1.875rem 0.938rem 0 0.938rem;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 0.875rem;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 1.25rem;
+}
+
+/* bottom */
+
+#main_bottom {
+   padding: 1.875rem 0.875rem 0 1.875rem;
+}
+
+iframe {
+   border: none;
+   width: 28.125rem;
+   margin-left: 1.875rem;
+}
+
+#bottom_content {
+   display: flex;
+}
+
+/* form */
+
+form label {
+   font-size: 1rem;
+   font-style: italic;
+   margin-right: 3.75rem;
+   vertical-align: top;
+}
+
+form input {
+   padding: 0.438rem;
+   width: 20.625rem;
+}
+
+form textarea {
+   width: 20.625rem;
+   height: 10.625rem;
+   margin-left: -0.625rem;
+}
+
+#inpEmail {
+   margin-left: 0.125;
+}
+
+#inpPhone {
+   margin-left: -0.25rem;
+}
+
+#inpDtae {
+   margin-left: 0.625rem;
+}
+
+#inpStart {
+   margin-left: 0.563rem;
+}

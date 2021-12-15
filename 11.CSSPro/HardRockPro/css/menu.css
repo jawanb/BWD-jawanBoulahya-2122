@@ -1,0 +1,22 @@
+#mainmenu {
+    list-style: none;
+    display: flex;
+    margin-top: 2.813rem;
+    margin-left: 13.75rem;
+ }
+ 
+ #mainmenu a {
+    color: #000;
+    font-size: 1.063rem;
+    text-transform: uppercase;
+ }
+ 
+ #mainmenu a:hover,
+ #mainmenu .active a {
+     color: #14833b;
+     text-decoration: none;
+ }
+ 
+ #mainmenu li {
+    padding: 1.25rem;
+ }

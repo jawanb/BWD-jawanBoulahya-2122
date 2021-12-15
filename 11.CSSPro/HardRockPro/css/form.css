@@ -1,0 +1,33 @@
+form label {
+    font-size: 1rem;
+    font-style: italic;
+    margin-right: 3.75rem;
+    vertical-align: top;
+ }
+ 
+ form input {
+    padding: 0.438rem;
+    width: 20.625rem;
+ }
+ 
+ form textarea {
+    width: 20.625rem;
+    height: 10.625rem;
+    margin-left: -0.625rem;
+ }
+ 
+ #inpEmail {
+    margin-left: 0.125;
+ }
+ 
+ #inpPhone {
+    margin-left: -0.25rem;
+ }
+ 
+ #inpDtae {
+    margin-left: 0.625rem;
+ }
+ 
+ #inpStart {
+    margin-left: 0.563rem;
+ }
